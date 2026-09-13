@@ -1,7 +1,7 @@
-# log
+# worklog
 
 当日の作業ログを会話から抽出して `private/作業ログ/YYYY-MM-DD.md` に書く Agent Skills 形式のスキル。
-Claude Code / Codex / Cursor などから `/log` で呼べる。作業の区切りや終了時に使う。
+Claude Code / Codex / Cursor などから `/worklog` で呼べる。作業の区切りや終了時に使う。
 
 書くもの
 
@@ -14,13 +14,13 @@ Claude Code / Codex / Cursor などから `/log` で呼べる。作業の区切�
 ## 入れる
 
 ```bash
-npx skills add commte/log
+npx skills add commte/worklog
 ```
 
-手で入れるなら、このリポジトリを `.claude/skills/log/` に置くか、シンボリックリンクを貼る。
+手で入れるなら、このリポジトリを `.claude/skills/worklog/` に置くか、シンボリックリンクを貼る。
 
 ```bash
-ln -s ~/Projects/log <repo>/.agents/skills/log
+ln -s ~/Projects/worklog <repo>/.agents/skills/worklog
 ```
 
 ## 置き場所を変える

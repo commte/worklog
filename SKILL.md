@@ -1,9 +1,9 @@
 ---
-name: log
-description: 当日の作業ログを記録する。/log で実行。会話の内容から作業内容を抽出し、private/作業ログ/YYYY-MM-DD.md に記録する。作業の区切りや終了時に使う。
+name: worklog
+description: 当日の作業ログを記録する。/worklog で実行。会話の内容から作業内容を抽出し、private/作業ログ/YYYY-MM-DD.md に記録する。作業の区切りや終了時に使う。
 ---
 
-# /log スキル
+# /worklog スキル
 
 当日の作業ログを `private/作業ログ/YYYY-MM-DD.md` に記録する。
 置き場所を変えたいプロジェクトは、その CLAUDE.md に「作業ログは `docs/log/` に置く」のように書く。
